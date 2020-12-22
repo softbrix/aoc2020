@@ -15,13 +15,13 @@ Download `reflex`: https://github.com/cespare/reflex
 
 ### Usage
 
-`reflex -r 'go$' -- sh -c 'go run day3.go < 1.in'`
+`reflex -r 'go$' -- sh -c 'go run main.go < in'`
 
 This will rerun your script each time your file is saved. Nice to have in separate console window while coding.
 
 
 ## Run go solution
-`go run dayX.go < 1.in`
+`go run main.go < in`
 
 ## Run nodejs solution
-`node dayX.js < 1.in`
+`node main.js < in`
